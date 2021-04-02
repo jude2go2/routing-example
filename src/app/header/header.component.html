@@ -1,0 +1,22 @@
+<div class="header">
+  <ul class="header__links">
+    <li class="header__link">
+      <a
+        [routerLink]="['/']"
+        routerLinkActive="header__link--active"
+        [routerLinkActiveOptions]="{ exact: true }"
+        >Home</a
+      >
+    </li>
+    <li class="header__link">
+      <a [routerLink]="['/first']" routerLinkActive="header__link--active"
+        >First</a
+      >
+    </li>
+    <li class="header__link">
+      <a [routerLink]="['/second']" routerLinkActive="header__link--active"
+        >Second</a
+      >
+    </li>
+  </ul>
+</div>
